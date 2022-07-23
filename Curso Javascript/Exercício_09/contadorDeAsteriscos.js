@@ -2,6 +2,7 @@
 
 exibirAsteristicos(5);
 
+
 function exibirAsteristicos(quantidade) {
     let simbolo = '';  
 
@@ -10,4 +11,5 @@ function exibirAsteristicos(quantidade) {
         console.log(simbolo);
     }
 }
+
 

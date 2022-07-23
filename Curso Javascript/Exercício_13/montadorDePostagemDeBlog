@@ -1,0 +1,26 @@
+//Javascript Aula 45 - Objeto Postagem de Blog (Exercício) 
+// Eu quero que você crie neste exercicio um objeto de postagem de
+// blog que vai conter as seguintes propriedades 
+// postagem
+/*
+titulo 
+mensagem
+ autor
+ visualizações
+comentarios
+    (autor, mensagem) 
+estaAoVivo
+*/
+let postagem = {
+    titulo: 'curso javascript',
+    mensagem: 'desafio aula 45',
+    autor: 'Diego',
+    visualizacoes: 34,
+    comentarios: [
+        { autor: 'Diego', mensagem: 'Mensagem 1' },
+        { autor: 'Diego', mensagem: 'Mensagem 2' },
+    ],
+    estaAoVivo: true
+}
+
+console.log(postagem);
